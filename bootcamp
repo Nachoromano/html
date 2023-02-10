@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio de Introducción a HTML en OpenBootcamp</title>
+</head>
+<body>
+	<h1>Este es mi primer comentario de dos líneas</h1>
+	<h2>Aprendiendo a documentar mi código con OpenBootcamp</h2>
+	<div>
+		<h1> mis tres vídeos de Youtube favoritos</h1>
+		<ul>
+			<li> <a href="https://youtu.be/xqR_VCRa8FM">Turreo and rkt 2 (Alan Gomez vs Chuka dj) // Lautyy DJ</a>     </li>
+			<li> <a href="https://youtu.be/FK9RvqDVhcM">INTENTAMOS COMPRAR UN SEMI ORUGA EN STREAM
+</a>     </li>
+			<li> <a href="https://youtu.be/kN1XP-Bef7w">Curso de HTML5 desde CERO (Completo)</a>     </li>
+		</ul>
+ 
+	</div>
+
+</body>    
+</html>
