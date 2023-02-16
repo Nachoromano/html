@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ganando precisión con los selectores en CSS</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<div class="encabezado">
+	<h1 id="titulo">lista de compras</h1>
+    <li id="el-1">cocacola</li>
+    <li id="el-2">harina</li>
+    <li id="el-3">fernet</li>
+    <li id="el-4">hielo</li>
+    <li id="el-5">huevos</li>
+	</div>
+	<ol>
+		<li id="el-1">vino</li>
+        <li id="el-2">papas</li>
+		<li id="el-3">dulces</li>
+        <li id="el-4">limpieza</li>
+        <li id="el-5">carne</li>
+
+	</ol>
+<div>
+	
+
+</div>
+</body>
+</html>
+
+#el-1{
+	color: red;
+	font-size: 2rem;
+}
