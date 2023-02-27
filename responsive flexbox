@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Diseño Responsive con CSS</title>
+	<link rel="stylesheet" type="text/css" href="grid.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="izq">
+			<div>elemento1</div>
+            <div>elemento2</div>
+			<div>elemento3</div>
+		</div>
+		<div class="derecha">sec principal</div>
+	</div>
+</body>
+</html>
+<style>
+.contenedor{
+    background-color: red;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+}
+.izq{
+    background-color: aquamarine;
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.derecha{
+    display: flex;
+    flex-grow: initial;
+    align-items: center;
+    width: 100vw;
+    margin: 5px;
+    background-color: blue;
+}
+
+@media (max-width: 640px){
+    .contenedor{
+        flex-direction:column-reverse;
+    }
+    .izq{
+        flex-direction: row;
+    }
+    .derecha{
+        min-height: 50px;
+    }
+} </style>
